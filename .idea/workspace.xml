@@ -44,27 +44,37 @@
       <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
+            <state relative-caret-position="41">
+              <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
               <folding>
-                <marker date="1473543239662" expanded="true" signature="1760:1849" ph="SELECT *, UN... articles" />
-                <marker date="1473543239662" expanded="true" signature="2663:2782" ph="SELECT SQL_C... articles" />
-                <marker date="1473543239662" expanded="true" signature="2663:2783" ph="SELECT SQL_C... articles" />
-                <marker date="1473543239662" expanded="true" signature="2663:2833" ph="SELECT SQL_C... articles" />
-                <marker date="1473543239662" expanded="true" signature="3965:4090" ph="INSERT INTO articles... " />
-                <marker date="1473543239662" expanded="true" signature="3965:4110" ph="INSERT INTO articles... " />
-                <marker date="1473543239662" expanded="true" signature="5086:5233" ph="UPDATE artic... " />
-                <marker date="1473543239662" expanded="true" signature="6254:6297" ph="DELETE FROM " />
+                <marker date="1473546522573" expanded="true" signature="1760:1849" ph="SELECT *, UN... articles" />
+                <marker date="1473546522573" expanded="true" signature="2663:2782" ph="SELECT SQL_C... articles" />
+                <marker date="1473546522573" expanded="true" signature="2663:2783" ph="SELECT SQL_C... articles" />
+                <marker date="1473546522573" expanded="true" signature="2663:2833" ph="SELECT SQL_C... articles" />
+                <marker date="1473546522573" expanded="true" signature="3965:4090" ph="INSERT INTO articles... " />
+                <marker date="1473546522573" expanded="true" signature="3965:4110" ph="INSERT INTO articles... " />
+                <marker date="1473546522573" expanded="true" signature="5086:5233" ph="UPDATE artic... " />
+                <marker date="1473546522573" expanded="true" signature="6254:6297" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="296">
               <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +87,9 @@
       <list>
         <option value="$PROJECT_DIR$/tables.sql" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/classes/Article.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/classes/Article.php" />
       </list>
     </option>
   </component>
@@ -216,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473533714561</updated>
-      <workItem from="1473533715969" duration="11239000" />
+      <workItem from="1473533715969" duration="12517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11239000" />
+    <option name="totallyTimeSpent" value="12517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -270,23 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
-          <folding>
-            <marker date="1473543239662" expanded="true" signature="1760:1849" ph="SELECT *, UN... articles" />
-            <marker date="1473543239662" expanded="true" signature="2663:2782" ph="SELECT SQL_C... articles" />
-            <marker date="1473543239662" expanded="true" signature="2663:2783" ph="SELECT SQL_C... articles" />
-            <marker date="1473543239662" expanded="true" signature="2663:2833" ph="SELECT SQL_C... articles" />
-            <marker date="1473543239662" expanded="true" signature="3965:4090" ph="INSERT INTO articles... " />
-            <marker date="1473543239662" expanded="true" signature="3965:4110" ph="INSERT INTO articles... " />
-            <marker date="1473543239662" expanded="true" signature="5086:5233" ph="UPDATE artic... " />
-            <marker date="1473543239662" expanded="true" signature="6254:6297" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tables.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -297,8 +291,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="296">
           <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+          <folding>
+            <marker date="1473546522573" expanded="true" signature="1760:1849" ph="SELECT *, UN... articles" />
+            <marker date="1473546522573" expanded="true" signature="2663:2782" ph="SELECT SQL_C... articles" />
+            <marker date="1473546522573" expanded="true" signature="2663:2783" ph="SELECT SQL_C... articles" />
+            <marker date="1473546522573" expanded="true" signature="2663:2833" ph="SELECT SQL_C... articles" />
+            <marker date="1473546522573" expanded="true" signature="3965:4090" ph="INSERT INTO articles... " />
+            <marker date="1473546522573" expanded="true" signature="3965:4110" ph="INSERT INTO articles... " />
+            <marker date="1473546522573" expanded="true" signature="5086:5233" ph="UPDATE artic... " />
+            <marker date="1473546522573" expanded="true" signature="6254:6297" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
