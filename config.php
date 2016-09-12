@@ -11,9 +11,9 @@ define("ADMIN_USERNAME", "admin"); // логин админа
 define("ADMIN_PASSWORD", "password"); // пароль админа
 require (CLASS_PATH . "/Article.php"); // класс статей
 
-// функция обработке исключенных ситуаций
+// функция обработки исключенных ситуаций
 function handleException($exception) {
-    echo "Пожалуйсто попробуйте пойзже";
+    echo "Пожалуйста попробуйте пойзже";
     error_log($exception->getMessage());
 }
 set_exception_handler('handleException'); // запись ошибок в лог сервера
