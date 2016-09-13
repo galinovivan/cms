@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title><?php echo htmlspecialchars($results['pageTitle']) ?></title>
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>

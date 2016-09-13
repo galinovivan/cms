@@ -67,7 +67,7 @@ function newArticle() {
         header("Location: admin.php");
     } else {
         // Пользователь еще не получил форму, выводим ее
-        $results['article']  new Article;
+        $results['article'] = new Article;
         require (TEMPLATE_PATH . "/admin/editArticle.php");
     }
 }
@@ -77,7 +77,7 @@ function editArticle() {
     $results['formAction'] = "editArticle";
 
     if (isset($_POST['saveChanges'])) {
-        // пользователь получил форму редактирования: сохроняем статью
+        // пользователь получил форму редактирования: сохраняем статью
 
         if (!$article = Article::getById((int)$_POST['articleId'])) {
             header("Location: admin.php?error=articleNotFound");
