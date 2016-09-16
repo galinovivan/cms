@@ -33,7 +33,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="total_rows">
-                <p><?php echo $results['totalRows'] статей ?><?php echo ($results['totalRows'] != 1) ? 's' : '' ?>Всего</p>
+                <p><?php echo $results['totalRows'] . "статей" ?><?php echo ($results['totalRows'] != 1) ? 's' : '' ?>Всего</p>
                 <p><a href="admin.php?action=newArticle" class="btn">Добавить новую статью</a></p>
             </div>
         </div>

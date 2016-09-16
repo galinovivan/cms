@@ -7,8 +7,8 @@ define("DB_PASSWORD", ""); // пароль к бд
 define("CLASS_PATH", "classes"); // путь к папке класса
 define("TEMPLATE_PATH", "templates"); // путь к папке с шаблонами
 define("HOMEPAGE_NUM_ARTICLES", 5); // максимум статей на главной
-define("ADMIN_USERNAME", "admin"); // логин админа
-define("ADMIN_PASSWORD", "password"); // пароль админа
+define("ADMIN_USERNAME", "123"); // логин админа
+define("ADMIN_PASSWORD", "123"); // пароль админа
 require (CLASS_PATH . "/Article.php"); // класс статей
 
 // функция обработки исключенных ситуаций

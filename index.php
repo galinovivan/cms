@@ -9,7 +9,7 @@ switch ($action) {
         viewArticle();
         break;
     default:
-        homepage();
+        homePage();
 }
 
 function archive() {

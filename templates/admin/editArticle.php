@@ -25,7 +25,7 @@
                     </textarea>
                     <label for="content">Содержпгте статьи</label>
                     <textarea name="content" id="content" cols="30" rows="10">
-                        <?php echo htmlspecialchars($resuts['article']->content) ?>
+                        <?php echo htmlspecialchars($results['article']->content) ?>
                     </textarea>
                     <label for="publicationDate">
                         Дата публикации

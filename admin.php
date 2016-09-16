@@ -33,14 +33,14 @@ function login() {
     $results['pageTitle'] = 'Admin Login | Widget News';
     if (isset($_POST['login'])) {
         // Пользователь получает форму ввода: попытка авторизовать пользователя
-        if ($_POST['login'] == ADMIN_USERNAME && $_POST['password'] == ADMIN_PASSWORD) {
+        if ($_POST['username'] == ADMIN_USERNAME && $_POST['password'] == ADMIN_PASSWORD) {
             // Успешный вход: создаем сессию и перенаправляем а страницу админа
             $_SESSION['username'] = ADMIN_USERNAME;
             header("Location: admin.php");
         } else {
             // ошибка входа, выводим сообщение об ошибке
             $results['errorMessage'] = "Неправильный логин или пароль";
-            require (TEMPLATE_PATH . "admin/loginForm.php");
+            require (TEMPLATE_PATH . "/admin/loginForm.php");
         }
     } else {
         // Пользователь еще не получчил форму, выводим форму
@@ -122,7 +122,7 @@ function listArticles() {
                 $results['statusMessage'] = "Статья удалена";
             }
         }
-        require (TEMPLATE_PATH . "/admin/listArticles.php");
     }
+    require ("templates/admin/listArticles.php");
 }
 ?>
